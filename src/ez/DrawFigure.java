@@ -21,6 +21,8 @@ public class DrawFigure {
 		EZ.addLine(0,20, 200,20, Color.RED, 1);
 
 		//矩形を描く(中心座標x, y, 幅, 高さ, 色, 塗りつぶし)
+		EZCircle circle = EZ.addCircle(100, 100, 150, 150, Color.BLUE, true);
+		circle.setColor(Color.RED);
 		EZ.addRectangle(100,300, 100,50, Color.CYAN, true);
 		
 		//ポリゴンを描く(座標配列x, 座標配列y, 色, 塗りつぶし)
